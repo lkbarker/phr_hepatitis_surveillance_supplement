@@ -1,6 +1,6 @@
-# COVID Analysis Template
+# Public Health Reports - Supplement: Viral Hepatitis Surveillance
 
-This project is made to help CDC responders start, work with others, produce useful analyses, and hand off to other responders.
+This project is made to serve as a repository of machine-readable and 508-compliant tables and supplementary materials to the Public Health Reports (PHR) special issue on viral hepatitis surveillance. The materials complement the author manuscripts and supplementary documents published online and in print by PHR, and archived in CDC Stacks and PubMed Central. The Surveillance Team within the Division of Viral Hepatitis, National Center for HIV, Viral Hepatitis, STDs and TB Prevention at CDC curates this repository.
 
 ## Getting Started
 
@@ -22,14 +22,25 @@ If you have special requirements, you can check out the [other locations](https:
 These folders are meant to help organize and make it easier for others to understand and contribute.
 
 ```sh
+├── 01 Guest Editorial
+├── 02 Health Equity Commentary
+├── 03 Overview and History of Viral Hepatitis Surveillance
+├── 04 Hepatitis A Trends
+├── 05 Hepatitis B Trends
+├── 06 Hepatitis B Cascades
+├── 07 Hepatitis C Trends
+├── 08 Hepatitis C Cascades
+├── 09 Syndemic
+├── 10 Surveillance System Impacts
+├── Supplementary materials
 ├── R                   <- R scripts, delete if unnecessary
 ├── SAS                 <- SAS scripts, delete if unnecessary
 ├── analysis            <- analysis and visualization files (eg notebooks, tableau, Rmarkdown, etc )
 │   └── template.Rmd    <- example template for Rmarkdown
 ├── data                <- data files used by project
-│   ├── clean           <- processed files ready for analysis, try not to store these in the repo, make them
+│   ├── clean           <- processed files ready for analysis, try not to store these in the repo, make them 
 │   ├── meta            <- metadata needed for analysis
-│   └── raw             <- raw files, original, immutable data dump
+│   └── raw             <- raw files, original, immutable data dump - the PHR supplement will not share raw NNDSS, Quest or NHANES data
 ├── docs                <- documentation and references (codebooks, etc)
 ├── output              <- output files
 ├── python              <- Python scripts, delete if unnecessary
@@ -50,12 +61,12 @@ These folders are meant to help organize and make it easier for others to unders
 
 This section contains info [useful for organization](https://github.com/cdcent/enterprise_practices).
 
-* Point of contact: SRRG
-* Organizational unit: EOC/SRRG
+* Point of contact: Surveillance Team
+* Organizational unit: CDC NCHHSTP Division of Viral Hepatitis
 * Related projects: N/A
-* Related investments: COVID-19 Response
+* Related investments: N/A 
 * Governance status: Under design
-* Program official: Brian Lee
+* Program official: Nicola Thompson, PhD, Surveillance Team Lead
 
 The participants of this project are required to adhere to [our code of conduct](https://github.com/CDCgov/template/blob/master/code-of-conduct.md). Although the contents of this project are available under the [Apache Software License](https://github.com/cdcent/enterprise_practices/blob/master/LICENSE) distribution is restricted to only appropriate CDC staff due to cybersecurity regulations. Unless otherwise noted, all contributions to this project are accepted by the contributor as containing unlimited data usage rights by CDC and under the same license of the project.
 
