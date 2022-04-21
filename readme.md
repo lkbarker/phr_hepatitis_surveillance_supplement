@@ -2,6 +2,8 @@
 
 This project is made to serve as a repository of machine-readable and 508-compliant tables and supplementary materials to the Public Health Reports (PHR) special issue on viral hepatitis surveillance. The materials complement the author manuscripts and supplementary documents published online and in print by PHR, and archived in CDC Stacks and PubMed Central. The Surveillance Team within the Division of Viral Hepatitis, National Center for HIV, Viral Hepatitis, STDs and TB Prevention at CDC curates this repository.
 
+Materials will be added upon publication of the supplement.
+
 ## Getting Started
 
 1. Create a new project using this template, <https://github.com/cdcent/covid_analysis_template/generate>. For public projects, put them in CDCgov; for private and inner, put then in CDCent.
@@ -22,17 +24,6 @@ If you have special requirements, you can check out the [other locations](https:
 These folders are meant to help organize and make it easier for others to understand and contribute.
 
 ```sh
-├── 01 Guest Editorial
-├── 02 Health Equity Commentary
-├── 03 Overview and History of Viral Hepatitis Surveillance
-├── 04 Hepatitis A Trends
-├── 05 Hepatitis B Trends
-├── 06 Hepatitis B Cascades
-├── 07 Hepatitis C Trends
-├── 08 Hepatitis C Cascades
-├── 09 Syndemic
-├── 10 Surveillance System Impacts
-├── Supplementary materials
 ├── R                   <- R scripts, delete if unnecessary
 ├── SAS                 <- SAS scripts, delete if unnecessary
 ├── analysis            <- analysis and visualization files (eg notebooks, tableau, Rmarkdown, etc )
